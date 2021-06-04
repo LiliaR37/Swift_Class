@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB395A9726686BB8008105FD /* ImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB395A9626686BB8008105FD /* ImagesView.swift */; };
 		DB746A282666D0970067280D /* SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB746A272666D0970067280D /* SwiftApp.swift */; };
 		DB746A2A2666D0970067280D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB746A292666D0970067280D /* ContentView.swift */; };
 		DB746A2C2666D09B0067280D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB746A2B2666D09B0067280D /* Assets.xcassets */; };
@@ -14,7 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DB746A242666D0970067280D /* Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB395A9626686BB8008105FD /* ImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesView.swift; sourceTree = "<group>"; };
+		DB746A242666D0970067280D /* proyecto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = proyecto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB746A272666D0970067280D /* SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftApp.swift; sourceTree = "<group>"; };
 		DB746A292666D0970067280D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB746A2B2666D09B0067280D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,7 +46,7 @@
 		DB746A252666D0970067280D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB746A242666D0970067280D /* Swift.app */,
+				DB746A242666D0970067280D /* proyecto.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +56,7 @@
 			children = (
 				DB746A272666D0970067280D /* SwiftApp.swift */,
 				DB746A292666D0970067280D /* ContentView.swift */,
+				DB395A9626686BB8008105FD /* ImagesView.swift */,
 				DB746A2B2666D09B0067280D /* Assets.xcassets */,
 				DB746A302666D09B0067280D /* Info.plist */,
 				DB746A2D2666D09B0067280D /* Preview Content */,
@@ -72,9 +75,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB746A232666D0970067280D /* Swift */ = {
+		DB746A232666D0970067280D /* proyecto */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB746A332666D09B0067280D /* Build configuration list for PBXNativeTarget "Swift" */;
+			buildConfigurationList = DB746A332666D09B0067280D /* Build configuration list for PBXNativeTarget "proyecto" */;
 			buildPhases = (
 				DB746A202666D0970067280D /* Sources */,
 				DB746A212666D0970067280D /* Frameworks */,
@@ -84,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = Swift;
+			name = proyecto;
 			productName = Swift;
-			productReference = DB746A242666D0970067280D /* Swift.app */;
+			productReference = DB746A242666D0970067280D /* proyecto.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DB746A1F2666D0970067280D /* Build configuration list for PBXProject "Swift" */;
+			buildConfigurationList = DB746A1F2666D0970067280D /* Build configuration list for PBXProject "proyecto" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB746A232666D0970067280D /* Swift */,
+				DB746A232666D0970067280D /* proyecto */,
 			);
 		};
 /* End PBXProject section */
@@ -140,6 +143,7 @@
 			files = (
 				DB746A2A2666D0970067280D /* ContentView.swift in Sources */,
 				DB746A282666D0970067280D /* SwiftApp.swift in Sources */,
+				DB395A9726686BB8008105FD /* ImagesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +311,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DB746A1F2666D0970067280D /* Build configuration list for PBXProject "Swift" */ = {
+		DB746A1F2666D0970067280D /* Build configuration list for PBXProject "proyecto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB746A312666D09B0067280D /* Debug */,
@@ -316,7 +320,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB746A332666D09B0067280D /* Build configuration list for PBXNativeTarget "Swift" */ = {
+		DB746A332666D09B0067280D /* Build configuration list for PBXNativeTarget "proyecto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB746A342666D09B0067280D /* Debug */,
