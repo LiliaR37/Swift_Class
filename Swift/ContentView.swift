@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Pepe MI AMOR LINDO")
+            Text("Pepe")
                 .foregroundColor(Color.black)
                 .padding()
                 .background(Color.pink)
