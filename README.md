@@ -1,3 +1,3 @@
 # Swift_Class
 
-Practicando con Swift #100DaysOfSwift📚
+Practicando con SwiftUI #100DaysOfSwift📚
