@@ -17,6 +17,7 @@
 		DB746A2F2666D09B0067280D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB746A2E2666D09B0067280D /* Preview Assets.xcassets */; };
 		DBA8F7352670F1390066B397 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA8F7342670F1390066B397 /* RowView.swift */; };
 		DBA8F7372670FE290066B397 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA8F7362670FE290066B397 /* ListView.swift */; };
+		DBA8F7392671075F0066B397 /* ListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA8F7382671075F0066B397 /* ListDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		DB746A302666D09B0067280D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBA8F7342670F1390066B397 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		DBA8F7362670FE290066B397 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		DBA8F7382671075F0066B397 /* ListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				DB6AD5AD266F9C8100593389 /* MainView.swift */,
 				DBA8F7342670F1390066B397 /* RowView.swift */,
 				DBA8F7362670FE290066B397 /* ListView.swift */,
+				DBA8F7382671075F0066B397 /* ListDetailView.swift */,
 				DB746A2B2666D09B0067280D /* Assets.xcassets */,
 				DB746A302666D09B0067280D /* Info.plist */,
 				DB746A2D2666D09B0067280D /* Preview Content */,
@@ -170,6 +173,7 @@
 				DBA8F7352670F1390066B397 /* RowView.swift in Sources */,
 				DB6AD5AC266E947500593389 /* MapView.swift in Sources */,
 				DB746A282666D0970067280D /* SwiftApp.swift in Sources */,
+				DBA8F7392671075F0066B397 /* ListDetailView.swift in Sources */,
 				DB6AD5AE266F9C8100593389 /* MainView.swift in Sources */,
 				DB395A9726686BB8008105FD /* ImagesView.swift in Sources */,
 			);

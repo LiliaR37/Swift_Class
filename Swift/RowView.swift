@@ -23,6 +23,7 @@ struct RowView: View {
                     .fontWeight(.bold)
                 Text(programmer.languages)
                     .font(.subheadline)
+                    
                 
             }
             Spacer()
